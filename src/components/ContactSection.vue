@@ -12,8 +12,7 @@ import { Mail, MessageCircle } from '@lucide/vue'
     >
       <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-8">Let's build something.</h2>
       <p class="text-gray-500 dark:text-gray-400 text-lg md:text-xl font-light mb-12 max-w-2xl mx-auto">
-        “At some point, you touched a computer, and the computer did what you wanted. You made it do what you wanted it to do, and you realized... that you were a god.”
-        <br/><span class="text-sm mt-2 inline-block">— Robert C. Martin</span>
+        Currently available for freelance opportunities and full-time roles. Whether you have a project in mind or just want to chat, my inbox is always open.
       </p>
       
       <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
