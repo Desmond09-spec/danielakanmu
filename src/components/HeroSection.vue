@@ -25,9 +25,10 @@ import { ArrowRight } from '@lucide/vue'
         class="text-center lg:text-left relative z-10 flex flex-col items-center lg:items-start pt-10 lg:pt-0"
       >
         <!-- Recent Release Badge -->
-        <a href="https://github.com/Desmond09-spec/streambible" target="_blank" rel="noopener noreferrer" class="mb-8 inline-flex items-center gap-2 md:gap-3 px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-gray-200 dark:border-gray-800 bg-white/50 dark:bg-black/50 backdrop-blur-md shadow-sm hover:bg-gray-50 dark:hover:bg-white/5 transition-colors cursor-pointer group max-w-full">
-          <span class="text-[10px] md:text-xs font-bold tracking-wide uppercase text-gray-900 dark:text-white border-r border-gray-300 dark:border-gray-700 pr-2 md:pr-3 whitespace-nowrap">Just Shipped</span>
-          <span class="text-xs md:text-sm font-medium text-gray-600 dark:text-gray-300 group-hover:text-black dark:group-hover:text-white transition-colors truncate">StreamBible<span class="hidden md:inline">: Open-source zero-latency presentation</span> <ArrowRight class="inline-block w-3 h-3 md:w-4 md:h-4 ml-1 opacity-50 group-hover:opacity-100 transition-transform group-hover:translate-x-1" /></span>
+        <a href="https://github.com/Desmond09-spec/streambible" target="_blank" rel="noopener noreferrer" class="mb-8 inline-flex items-center gap-3 px-4 py-2 rounded-full border border-gray-200 dark:border-gray-800 bg-white/50 dark:bg-black/50 backdrop-blur-md shadow-sm hover:bg-gray-50 dark:hover:bg-white/5 transition-colors cursor-pointer group max-w-full">
+          <span class="text-xs font-bold tracking-wide uppercase text-gray-900 dark:text-white border-r border-gray-300 dark:border-gray-700 pr-3 whitespace-nowrap shrink-0">Just Shipped</span>
+          <span class="text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-300 group-hover:text-black dark:group-hover:text-white transition-colors truncate">StreamBible: Open-source zero-latency presentation</span>
+          <ArrowRight class="w-4 h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:translate-x-1 shrink-0" />
         </a>
         
         <h1 class="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter mb-6 text-gradient leading-tight" style="text-shadow: 0 10px 30px rgba(0,0,0,0.1);">
