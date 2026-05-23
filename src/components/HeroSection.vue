@@ -4,6 +4,17 @@ import { ArrowRight } from '@lucide/vue'
 
 <template>
   <section class="relative min-h-screen pt-20 overflow-hidden bg-white dark:bg-[#0a0a0a] flex items-center">
+    
+    <!-- Mobile Subtle Code Background -->
+    <div 
+      class="absolute inset-0 flex lg:hidden justify-center items-center overflow-hidden pointer-events-none z-0 select-none opacity-[0.05] dark:opacity-[0.03]" 
+      style="mask-image: radial-gradient(circle at center, black 0%, transparent 70%); -webkit-mask-image: radial-gradient(circle at center, black 0%, transparent 70%);"
+    >
+      <div class="font-mono text-justify break-all leading-relaxed text-[10px] sm:text-xs text-black dark:text-white w-[200%] h-[200%] -rotate-[15deg]">
+        <span v-for="i in 30" :key="i">/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/ /(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}/ /^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|6(?:011|5[0-9]{2})[0-9]{12}|(?:2131|1800|35\d{3})\d{11})$/ /&lt;([a-z]+)([^&lt;]+)*(?:&gt;(.*)&lt;\/\1&gt;|\s+\/&gt;)/g /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$/ /^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/ </span>
+      </div>
+    </div>
+
     <div class="max-w-7xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center">
       
       <!-- Text Content (Left Column) -->
@@ -44,9 +55,9 @@ import { ArrowRight } from '@lucide/vue'
         </div>
       </div>
 
-      <!-- iPhone Showcase (Right Column on Desktop, Atmospheric Background on Mobile) -->
+      <!-- iPhone Showcase (Hidden on Mobile, Right Column on Desktop) -->
       <div 
-        class="absolute inset-0 m-auto flex justify-center items-center w-full z-0 opacity-15 dark:opacity-10 pointer-events-none lg:static lg:opacity-90 dark:lg:opacity-90 lg:pointer-events-auto"
+        class="hidden lg:flex justify-center items-center w-full z-0 opacity-90 pointer-events-auto"
         v-motion
         :initial="{ y: -20 }"
         :enter="{ y: 20, transition: { duration: 4000, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut' } }"
