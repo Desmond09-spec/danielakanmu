@@ -6,7 +6,10 @@ import { ArrowRight } from '@lucide/vue'
   <section class="relative min-h-screen flex flex-col justify-center items-center px-6 text-center pt-20 overflow-hidden bg-white dark:bg-[#0a0a0a]">
     
     <!-- LAYER 1: Left Faded Portrait -->
-    <div class="absolute left-0 top-0 bottom-0 w-1/2 md:w-5/12 z-0 hidden md:block opacity-40 dark:opacity-20 pointer-events-none mix-blend-luminosity">
+    <div 
+      class="absolute left-0 top-0 bottom-0 w-1/2 md:w-5/12 z-0 hidden md:block opacity-40 dark:opacity-20 pointer-events-none mix-blend-luminosity"
+      style="mask-image: linear-gradient(to bottom, black 75%, transparent 100%); -webkit-mask-image: linear-gradient(to bottom, black 75%, transparent 100%);"
+    >
       <img 
         src="/images/profile-pic-portrait.png" 
         alt="Daniel Akanmu Portrait" 
