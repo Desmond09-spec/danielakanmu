@@ -22,28 +22,12 @@ import { ArrowRight } from '@lucide/vue'
       :initial="{ y: -20 }"
       :enter="{ y: 20, transition: { duration: 4000, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut' } }"
     >
-      <div 
-        class="w-[300px] h-[600px] bg-black rounded-[50px] border-[8px] border-gray-800 dark:border-gray-700 shadow-2xl relative overflow-hidden"
+      <img 
+        src="/images/iPhone-frame-capture.png"
+        alt="Project Mockup"
+        class="w-[320px] object-contain shadow-2xl drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
         style="transform: perspective(1200px) rotateY(-25deg) rotateX(10deg) rotateZ(-5deg); transform-style: preserve-3d;"
-      >
-        <!-- Dynamic Island / Notch -->
-        <div class="absolute top-3 left-1/2 -translate-x-1/2 w-24 h-6 bg-black rounded-full z-20"></div>
-        
-        <!-- Screen Content (Placeholder) -->
-        <div class="w-full h-full bg-gray-900 rounded-[42px] overflow-hidden relative">
-          <img 
-            src="/images/hero-img.png" 
-            alt="Project Screenshot" 
-            class="w-full h-full object-cover"
-          />
-        </div>
-        
-        <!-- Volume / Power buttons (subtle details) -->
-        <div class="absolute -left-[10px] top-24 w-[2px] h-8 bg-gray-700 rounded-l-md"></div>
-        <div class="absolute -left-[10px] top-36 w-[2px] h-12 bg-gray-700 rounded-l-md"></div>
-        <div class="absolute -left-[10px] top-52 w-[2px] h-12 bg-gray-700 rounded-l-md"></div>
-        <div class="absolute -right-[10px] top-40 w-[2px] h-16 bg-gray-700 rounded-r-md"></div>
-      </div>
+      />
     </div>
 
     <!-- LAYER 3: Foreground Content -->
