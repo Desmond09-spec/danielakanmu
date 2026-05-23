@@ -46,7 +46,7 @@ import { ArrowRight } from '@lucide/vue'
 
       <!-- iPhone Showcase (Right Column on Desktop, Atmospheric Background on Mobile) -->
       <div 
-        class="absolute inset-0 m-auto flex justify-center items-center w-full -z-10 opacity-15 dark:opacity-10 pointer-events-none lg:static lg:opacity-90 lg:z-0 lg:pointer-events-auto"
+        class="absolute inset-0 m-auto flex justify-center items-center w-full -z-10 opacity-15 dark:opacity-10 pointer-events-none lg:static lg:opacity-90 dark:lg:opacity-90 lg:z-0 lg:pointer-events-auto"
         v-motion
         :initial="{ y: -20 }"
         :enter="{ y: 20, transition: { duration: 4000, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut' } }"
