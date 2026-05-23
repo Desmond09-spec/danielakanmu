@@ -1,6 +1,7 @@
 <script setup>
 import ThemeToggle from './components/ThemeToggle.vue'
 import HeroSection from './components/HeroSection.vue'
+import StackMarquee from './components/StackMarquee.vue'
 import BentoGrid from './components/BentoGrid.vue'
 import ContactSection from './components/ContactSection.vue'
 </script>
@@ -11,6 +12,7 @@ import ContactSection from './components/ContactSection.vue'
     
     <main>
       <HeroSection />
+      <StackMarquee />
       <BentoGrid />
     </main>
     
