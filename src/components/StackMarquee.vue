@@ -17,7 +17,7 @@ const marqueeItems = [...stacks, ...stacks]
 </script>
 
 <template>
-  <div class="relative w-full overflow-hidden border-y border-gray-200 dark:border-gray-800 bg-gray-50/50 dark:bg-[#0a0a0a]/50 py-4 flex items-center">
+  <div class="relative w-full overflow-hidden border-y border-gray-200 dark:border-gray-800 bg-gray-50/50 dark:bg-[#0a0a0a]/50 py-4 flex items-center my-16 md:my-24">
     
     <!-- Gradient Masks for seamless fade on edges -->
     <div class="absolute inset-y-0 left-0 w-16 md:w-32 bg-gradient-to-r from-white dark:from-[#0a0a0a] to-transparent z-10 pointer-events-none"></div>
