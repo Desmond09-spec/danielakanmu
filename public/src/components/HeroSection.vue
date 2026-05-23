@@ -32,7 +32,7 @@ import { ArrowRight } from '@lucide/vue'
         <!-- Screen Content (Placeholder) -->
         <div class="w-full h-full bg-gray-900 rounded-[42px] overflow-hidden relative">
           <img 
-            src="https://placehold.co/1170x2532/1a1a1a/ffffff?text=Project+App" 
+            src="/images/hero-img.png" 
             alt="Project Screenshot" 
             class="w-full h-full object-cover"
           />
