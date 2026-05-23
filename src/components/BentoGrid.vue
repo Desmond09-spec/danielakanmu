@@ -11,10 +11,10 @@ const projects = [
     spanCols: 2
   },
   {
-    title: 'AlexisTradeLinks',
-    description: 'Electronics, expert inverter/CCTV installations, computer sales/servicing, and mobile/web app development.',
-    image: '/images/AlexisTradeLinks_profile.png',
-    liveLink: 'https://alexis-trade-links.vercel.app',
+    title: 'Noble Apparel',
+    description: 'Bespoke fashion consultations and tailored luxury garments. Discover vibrant statement pieces and high-end cultural wear.',
+    image: '/images/NOBLE-APPAREL-dark.png',
+    liveLink: 'https://nobleapparel.vercel.app',
     spanCols: 1
   },
   {
