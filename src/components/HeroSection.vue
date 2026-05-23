@@ -37,11 +37,11 @@ import { ArrowRight } from '@lucide/vue'
       :enter="{ opacity: 1, y: 0, transition: { duration: 800, type: 'spring', stiffness: 50 } }"
       class="max-w-4xl mx-auto relative z-10"
     >
-      <!-- Micro-Status Badge -->
-      <div class="mb-8 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 dark:border-gray-800 bg-white/50 dark:bg-black/50 backdrop-blur-md shadow-sm">
-        <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
-        <span class="text-xs font-medium tracking-wide uppercase text-gray-600 dark:text-gray-300">Available for freelance</span>
-      </div>
+      <!-- Recent Release Badge -->
+      <a href="https://github.com/Desmond09-spec/streambible" target="_blank" rel="noopener noreferrer" class="mb-8 inline-flex items-center gap-3 px-4 py-2 rounded-full border border-gray-200 dark:border-gray-800 bg-white/50 dark:bg-black/50 backdrop-blur-md shadow-sm hover:bg-gray-50 dark:hover:bg-white/5 transition-colors cursor-pointer group">
+        <span class="text-xs font-bold tracking-wide uppercase text-gray-900 dark:text-white border-r border-gray-300 dark:border-gray-700 pr-3">Just Shipped</span>
+        <span class="text-sm font-medium text-gray-600 dark:text-gray-300 group-hover:text-black dark:group-hover:text-white transition-colors">StreamBible: Open-source zero-latency presentation <ArrowRight class="inline-block w-4 h-4 ml-1 opacity-50 group-hover:opacity-100 transition-transform group-hover:translate-x-1" /></span>
+      </a>
       
       <h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter mb-6 text-gradient" style="text-shadow: 0 10px 30px rgba(0,0,0,0.1);">
         Software Engineer <br/> & Frontend Specialist.
