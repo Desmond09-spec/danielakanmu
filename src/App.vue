@@ -1,5 +1,4 @@
 <script setup>
-import ThemeToggle from './components/ThemeToggle.vue'
 import HeroSection from './components/HeroSection.vue'
 import StackMarquee from './components/StackMarquee.vue'
 import BentoGrid from './components/BentoGrid.vue'
@@ -8,7 +7,6 @@ import ContactSection from './components/ContactSection.vue'
 
 <template>
   <div class="min-h-screen selection:bg-black selection:text-white dark:selection:bg-white dark:selection:text-black">
-    <ThemeToggle />
     
     <main>
       <HeroSection />
