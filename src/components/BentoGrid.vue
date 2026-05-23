@@ -21,14 +21,14 @@ const projects = [
     title: 'Potio Beauty',
     description: 'A custom-built e-commerce frontend showcasing botanical skincare elixirs with a luxurious glassmorphism design system.',
     image: '/images/potiobeauty.png',
-    liveLink: 'https://potio-elegance-3d1f0904.vercel.app',
+    liveLink: 'https://potiobeauty.vercel.app',
     spanCols: 1
   },
   {
-    title: 'Keelz Treats',
-    description: 'Based in Ibadan, offering delicious Nigerian small chops like spring rolls and samosas for all gatherings and events.',
-    image: '/images/keelztreats.png',
-    liveLink: 'https://keelztreats.vercel.app',
+    title: 'Gloss & Garb',
+    description: 'A beauty storefront with a focused visual system anchored in modern elegance, custom HSL glassmorphism, and a premium editorial mood.',
+    image: '/images/glossandgarb.png',
+    liveLink: 'https://gloss-and-garb-official.vercel.app/',
     spanCols: 1
   },
   {
