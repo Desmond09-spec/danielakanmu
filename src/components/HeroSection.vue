@@ -3,7 +3,7 @@ import { ArrowRight } from '@lucide/vue'
 </script>
 
 <template>
-  <section class="relative min-h-[90vh] flex flex-col justify-center items-center px-6 text-center pt-20 overflow-hidden bg-white dark:bg-[#0a0a0a]">
+  <section class="relative min-h-screen flex flex-col justify-center items-center px-6 text-center pt-20 overflow-hidden bg-white dark:bg-[#0a0a0a]">
     
     <!-- LAYER 1: Left Faded Portrait -->
     <div class="absolute left-0 top-0 bottom-0 w-1/2 md:w-5/12 z-0 hidden md:block opacity-40 dark:opacity-20 pointer-events-none mix-blend-luminosity">
