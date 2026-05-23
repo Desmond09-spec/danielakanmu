@@ -18,10 +18,11 @@ const projects = [
     spanCols: 1
   },
   {
-    title: 'Gloss and Garb',
-    description: 'Handmade lip glosses & beauty essentials. Enhancing natural beauty with unique products.',
-    image: '/images/glossandgarb.png',
-    liveLink: 'https://glossandgarb.vercel.app',
+    title: 'Potio Beauty',
+    description: 'A custom-built e-commerce frontend showcasing botanical skincare elixirs with a luxurious glassmorphism design system.',
+    image: '/images/potiobeauty.png',
+    liveLink: 'https://potio-elegance-3d1f0904.vercel.app',
+    githubLink: 'https://github.com/Desmond09-spec/potio-elegance-3d1f0904',
     spanCols: 1
   },
   {
