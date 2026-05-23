@@ -26,7 +26,7 @@ const projects = [
   },
   {
     title: 'Gloss & Garb',
-    description: 'A beauty storefront with a focused visual system anchored in modern elegance, custom HSL glassmorphism, and a premium editorial mood.',
+    description: 'Handmade lip glosses & beauty essentials. Enhancing natural beauty with unique products.',
     image: '/images/glossandgarb.png',
     liveLink: 'https://gloss-and-garb-official.vercel.app/',
     spanCols: 1
