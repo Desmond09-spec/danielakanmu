@@ -32,9 +32,9 @@ const projects = [
     spanCols: 1
   },
   {
-    title: 'Brenda Osh',
-    description: 'A minimalist portfolio showcasing model Brenda Osh, featuring sleek photography and a clean, modern design.',
-    image: '/images/brenda-osh.png',
+    title: 'Brenda Oshinbolu',
+    description: 'A minimalist portfolio showcasing model Brenda Oshinbolu, featuring sleek photography and a clean, modern design.',
+    image: '/images/brenda-osh.jpg',
     liveLink: 'https://brendaoshinbolu.vercel.app',
     spanCols: 1
   },
