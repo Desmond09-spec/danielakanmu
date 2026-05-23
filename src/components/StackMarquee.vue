@@ -6,11 +6,15 @@ const stacks = [
   'React',
   'Node.js',
   'Express',
+  'PostgreSQL',
   'Supabase',
+  'WebRTC',
+  'mDNS',
   'Git / GitHub',
   'Vercel',
+  'OWASP',
   'HTML5',
-  'CSS3'
+  'CSS3',
 ]
 
 // Duplicate the array to create a seamless infinite loop
