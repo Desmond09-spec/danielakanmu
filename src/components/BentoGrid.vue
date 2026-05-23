@@ -32,12 +32,12 @@ const projects = [
     spanCols: 1
   },
   {
-    title: 'Luxuria by Tiannah',
-    description: 'Elegant jewelry like necklaces and watches, crafted to tell your unique story.',
-    image: '/images/luxuriabytiannah.png',
-    liveLink: 'https://luxuriabytiannah.vercel.app',
+    title: 'Brenda Osh',
+    description: 'A minimalist portfolio showcasing model Brenda Osh, featuring sleek photography and a clean, modern design.',
+    image: '/images/brenda-osh.png',
+    liveLink: 'https://brendaoshinbolu.vercel.app',
     spanCols: 1
-  }
+  },
 ]
 </script>
 
