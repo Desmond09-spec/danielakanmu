@@ -3,11 +3,11 @@ import ProjectCard from './ProjectCard.vue'
 
 const projects = [
   {
-    title: 'RuthKadiri247',
-    description: 'A YouTube channel platform featuring a large collection of Nollywood movies and short videos. Starring Ruth Kadiri and other Nigerian actors with over 3 million subscribers.',
-    image: '/images/ruthkadiri247_white-border.png',
-    liveLink: 'https://ruthkadiri247.vercel.app',
-    githubLink: 'https://github.com/RuthKadiri247',
+    title: 'StreamBible',
+    description: 'An open-source, high-performance, offline-resilient web application designed to instantly display multilingual Bible verses on church livestreams with zero latency.',
+    image: '/images/streambible-dark.png',
+    liveLink: 'https://streambible.vercel.app',
+    githubLink: 'https://github.com/Desmond09-spec/streambible',
     spanCols: 2
   },
   {
