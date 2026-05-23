@@ -44,9 +44,9 @@ import { ArrowRight } from '@lucide/vue'
         </div>
       </div>
 
-      <!-- iPhone Showcase (Right Column / Bottom on Mobile) -->
+      <!-- iPhone Showcase (Right Column on Desktop, Atmospheric Background on Mobile) -->
       <div 
-        class="flex justify-center items-center w-full z-0 opacity-90 pb-16 lg:pb-0"
+        class="absolute inset-0 m-auto flex justify-center items-center w-full -z-10 opacity-15 dark:opacity-10 pointer-events-none lg:static lg:opacity-90 lg:z-0 lg:pointer-events-auto"
         v-motion
         :initial="{ y: -20 }"
         :enter="{ y: 20, transition: { duration: 4000, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut' } }"
@@ -54,7 +54,7 @@ import { ArrowRight } from '@lucide/vue'
         <img 
           src="/images/iPhone-frame-capture.png"
           alt="Project Mockup"
-          class="w-[280px] md:w-[320px] lg:w-[400px] object-contain shadow-2xl drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
+          class="w-[300px] md:w-[350px] lg:w-[400px] object-contain shadow-2xl drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
           style="transform: perspective(1200px) rotateY(-25deg) rotateX(10deg) rotateZ(-5deg); transform-style: preserve-3d;"
         />
       </div>
