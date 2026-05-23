@@ -2,11 +2,12 @@
 const stacks = [
   'Vue.js',
   'Tailwind CSS',
-  'JavaScript',
-  'TypeScript',
+  'JavaScript/Typescript',
+  'React',
   'Node.js',
-  'Firebase',
-  'Figma',
+  'Express',
+  'Supabase',
+  'Git / GitHub',
   'Vercel',
   'HTML5',
   'CSS3'
