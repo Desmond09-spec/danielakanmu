@@ -23,7 +23,7 @@ const marqueeItems = [...stacks, ...stacks]
 
 <template>
   <div 
-    class="relative w-full overflow-hidden border-y border-gray-200 dark:border-gray-800 bg-gray-50/50 dark:bg-[#0a0a0a]/50 py-4 flex items-center my-16 md:my-24"
+    class="relative w-full overflow-hidden border-y border-gray-200 dark:border-gray-800 bg-[#f8f7f4]/70 dark:bg-[#0a0a0a]/70 py-4 flex items-center my-16 md:my-24"
     style="mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent); -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);"
   >
     <div class="marquee-track flex whitespace-nowrap">

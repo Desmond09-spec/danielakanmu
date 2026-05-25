@@ -1,13 +1,16 @@
 <script setup>
 import { ArrowRight } from '@lucide/vue'
+import { useTheme } from '../composables/useTheme.js'
+
+const { isDark } = useTheme()
 </script>
 
 <template>
-  <section class="relative min-h-screen pt-20 overflow-hidden bg-white dark:bg-[#0a0a0a] flex items-center">
+  <section class="relative min-h-screen pt-20 overflow-hidden hero-bg flex items-center">
     
     <!-- Mobile Subtle Code Background -->
     <div 
-      class="absolute inset-0 flex lg:hidden justify-center items-center overflow-hidden pointer-events-none z-0 select-none opacity-[0.05] dark:opacity-[0.03]" 
+      class="absolute inset-0 flex lg:hidden justify-center items-center overflow-hidden pointer-events-none z-0 select-none opacity-[0.04] dark:opacity-[0.03]" 
       style="mask-image: radial-gradient(circle at center, black 0%, transparent 70%); -webkit-mask-image: radial-gradient(circle at center, black 0%, transparent 70%);"
     >
       <div class="font-mono text-justify break-all leading-relaxed text-[10px] sm:text-xs text-black dark:text-white w-[200%] h-[200%] -rotate-[15deg]">
@@ -25,8 +28,8 @@ import { ArrowRight } from '@lucide/vue'
         class="text-center lg:text-left relative z-10 flex flex-col items-center lg:items-start pt-10 lg:pt-0"
       >
         <!-- Recent Release Badge -->
-        <a href="https://github.com/Desmond09-spec/streambible" target="_blank" rel="noopener noreferrer" class="mb-8 inline-flex items-center gap-3 px-4 py-2 rounded-full border border-gray-200 dark:border-gray-800 bg-white/50 dark:bg-black/50 backdrop-blur-md shadow-sm hover:bg-gray-50 dark:hover:bg-white/5 transition-colors cursor-pointer group max-w-full">
-          <span class="text-xs font-bold tracking-wide uppercase text-gray-900 dark:text-white border-r border-gray-300 dark:border-gray-700 pr-3 whitespace-nowrap shrink-0">Just Shipped</span>
+        <a href="https://github.com/Desmond09-spec/streambible" target="_blank" rel="noopener noreferrer" class="mb-8 inline-flex items-center gap-3 px-4 py-2 rounded-full border border-gray-200 dark:border-gray-800 bg-white dark:bg-black/50 shadow-sm hover:shadow-md dark:hover:bg-white/5 transition-all cursor-pointer group max-w-full">
+          <span class="text-xs font-bold tracking-wide uppercase text-amber-700 dark:text-white border-r border-amber-200 dark:border-gray-700 pr-3 whitespace-nowrap shrink-0">Just Shipped</span>
           <span class="text-xs sm:text-sm font-medium text-gray-600 dark:text-gray-300 group-hover:text-black dark:group-hover:text-white transition-colors truncate">StreamBible: Open-source zero-latency presentation</span>
           <ArrowRight class="w-4 h-4 opacity-50 group-hover:opacity-100 transition-transform group-hover:translate-x-1 shrink-0" />
         </a>
@@ -49,7 +52,7 @@ import { ArrowRight } from '@lucide/vue'
           </a>
           <a 
             href="mailto:digitechfrontendwebdevelopment@gmail.com" 
-            class="flex items-center justify-center gap-2 px-8 py-4 rounded-full border border-gray-300 dark:border-gray-700 bg-white/80 dark:bg-black/50 backdrop-blur-md text-black dark:text-white font-semibold text-lg hover:bg-gray-50 dark:hover:bg-white/10 transition-colors"
+            class="flex items-center justify-center gap-2 px-8 py-4 rounded-full border border-gray-300 dark:border-gray-700 bg-white dark:bg-black/50 text-black dark:text-white font-semibold text-lg shadow-sm hover:shadow-md hover:border-gray-400 dark:hover:bg-white/10 transition-all"
           >
             Contact Me
           </a>
@@ -64,9 +67,9 @@ import { ArrowRight } from '@lucide/vue'
         :enter="{ y: 20, transition: { duration: 4000, repeat: Infinity, repeatType: 'mirror', ease: 'easeInOut' } }"
       >
         <img 
-          src="/images/iPhone-frame-capture.png"
+          :src="isDark ? '/images/iPhone-frame-capture.png' : '/images/iPhone-frame-capture-light.png'"
           alt="Project Mockup"
-          class="w-[300px] md:w-[350px] lg:w-[400px] object-contain shadow-2xl drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
+          class="w-[300px] md:w-[350px] lg:w-[400px] object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.15)] dark:drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
           style="transform: perspective(1200px) rotateY(-25deg) rotateX(10deg) rotateZ(-5deg); transform-style: preserve-3d;"
         />
       </div>

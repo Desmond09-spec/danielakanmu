@@ -1,10 +1,19 @@
 <script setup>
+import { computed } from 'vue'
 import { ExternalLink, Code } from '@lucide/vue'
+import { useTheme } from '../composables/useTheme.js'
 
-defineProps({
+const { isDark } = useTheme()
+
+const props = defineProps({
   title: String,
   description: String,
+  /** Fallback image used when no dark/light specific variant is supplied */
   image: String,
+  /** Image to show in dark mode. Falls back to image if not provided. */
+  darkImage: String,
+  /** Image to show in light mode. Falls back to image if not provided. */
+  lightImage: String,
   liveLink: String,
   githubLink: String,
   spanCols: {
@@ -12,6 +21,12 @@ defineProps({
     default: 1
   }
 })
+
+const displayImage = computed(() =>
+  isDark.value
+    ? (props.darkImage || props.image)
+    : (props.lightImage || props.image)
+)
 </script>
 
 <template>
@@ -21,8 +36,8 @@ defineProps({
   >
     <!-- Image Header -->
     <div class="h-64 overflow-hidden relative">
-      <div class="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
-      <img :src="image" :alt="title" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+      <div class="absolute inset-0 bg-transparent group-hover:bg-black/10 transition-colors duration-500 z-10"></div>
+      <img :src="displayImage" :alt="title" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
     </div>
     
     <!-- Content Content -->
@@ -59,3 +74,4 @@ defineProps({
     </div>
   </div>
 </template>
+

@@ -5,7 +5,8 @@ const projects = [
   {
     title: 'StreamBible',
     description: 'An open-source, high-performance, offline-resilient web application designed to instantly display multilingual Bible verses on church livestreams with zero latency.',
-    image: '/images/streambible-dark.png',
+    darkImage: '/images/streambible-dark.png',
+    lightImage: '/images/streambible-light.png',
     liveLink: 'https://streambible.vercel.app',
     githubLink: 'https://github.com/Desmond09-spec/streambible',
     spanCols: 2
@@ -13,7 +14,8 @@ const projects = [
   {
     title: 'Noble Apparel',
     description: 'Bespoke fashion consultations and tailored luxury garments. Discover vibrant statement pieces and high-end cultural wear.',
-    image: '/images/NOBLE-APPAREL-dark.png',
+    darkImage: '/images/NOBLE-APPAREL-dark.png',
+    lightImage: '/images/NOBLE%20APPAREL%20(1).png',
     liveLink: 'https://nobleapparel.vercel.app',
     spanCols: 1
   },

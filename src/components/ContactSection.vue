@@ -35,10 +35,10 @@ import { Mail, MessageCircle } from '@lucide/vue'
         <p>&copy; {{ new Date().getFullYear() }} Daniel Akanmu. All rights reserved.</p>
         
         <div class="flex gap-6">
-          <a href="https://github.com/Desmond09-spec" target="_blank" rel="noopener noreferrer" class="hover:text-black dark:hover:text-white transition-colors">GitHub</a>
-          <a href="https://www.linkedin.com/in/thedanielakanmu" target="_blank" rel="noopener noreferrer" class="hover:text-black dark:hover:text-white transition-colors">LinkedIn</a>
-          <a href="https://www.x.com/thedanielakanmu" target="_blank" rel="noopener noreferrer" class="hover:text-black dark:hover:text-white transition-colors">Twitter (X)</a>
-          <a href="https://vm.tiktok.com/ZMSb5ee6w/" target="_blank" rel="noopener noreferrer" class="hover:text-black dark:hover:text-white transition-colors">TikTok</a>
+          <a href="https://github.com/Desmond09-spec" target="_blank" rel="noopener noreferrer" class="hover:text-amber-600 dark:hover:text-white transition-colors">GitHub</a>
+          <a href="https://www.linkedin.com/in/thedanielakanmu" target="_blank" rel="noopener noreferrer" class="hover:text-amber-600 dark:hover:text-white transition-colors">LinkedIn</a>
+          <a href="https://www.x.com/thedanielakanmu" target="_blank" rel="noopener noreferrer" class="hover:text-amber-600 dark:hover:text-white transition-colors">Twitter (X)</a>
+          <a href="https://vm.tiktok.com/ZMSb5ee6w/" target="_blank" rel="noopener noreferrer" class="hover:text-amber-600 dark:hover:text-white transition-colors">TikTok</a>
         </div>
       </div>
     </div>
