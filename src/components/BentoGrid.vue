@@ -1,5 +1,6 @@
 <script setup>
 import ProjectCard from './ProjectCard.vue'
+import AboutCard from './AboutCard.vue'
 
 const projects = [
   {
@@ -51,13 +52,17 @@ const projects = [
       :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 800, type: 'spring', stiffness: 50, delay: 200 } }"
       class="mb-16"
     >
-      <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">Selected Work.</h2>
-      <p class="text-gray-500 dark:text-gray-400 text-lg md:text-xl font-light">A collection of platforms and digital experiences.</p>
+      <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">Craft & Context.</h2>
+      <p class="text-gray-500 dark:text-gray-400 text-lg md:text-xl font-light">The person behind the work, and the work itself.</p>
     </div>
     
     <div 
       class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
     >
+      <!-- About card spans full grid width -->
+      <AboutCard />
+
+      <!-- Project cards -->
       <ProjectCard 
         v-for="(project, index) in projects" 
         :key="project.title"

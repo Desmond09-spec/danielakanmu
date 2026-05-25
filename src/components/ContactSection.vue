@@ -10,9 +10,9 @@ import { Mail, MessageCircle } from '@lucide/vue'
       :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 800, type: 'spring', stiffness: 50 } }"
       class="max-w-4xl mx-auto text-center"
     >
-      <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-8">Let's build something.</h2>
+      <h2 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-8">Ready when you are.</h2>
       <p class="text-gray-500 dark:text-gray-400 text-lg md:text-xl font-light mb-12 max-w-2xl mx-auto">
-        Currently available for freelance opportunities and full-time roles. Whether you have a project in mind or just want to chat, my inbox is always open.
+        Currently accepting select freelance projects, contract roles, and full-time engineering opportunities. Whether you want to build a refined digital experience from scratch or elevate an existing system, let's start the conversation.
       </p>
       
       <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
